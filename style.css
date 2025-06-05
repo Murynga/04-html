@@ -6,10 +6,7 @@ html {
 
 
 body {
-    background-image: linear-gradient(rgb(107, 107, 107), rgb(12, 4, 20));
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-image: linear-gradient(whitesmoke, rgb(188, 240, 237));
 }
 
 .cabecalho {
@@ -19,4 +16,36 @@ body {
 .indice {
     font-style: normal;
     color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(23, 145, 216);
+}
+
+.imagem-produto {
+    float: left;
+    width:400px;
+    height:250px;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.imagem-produto:hover {
+    border: 2px solid rgb(23, 145, 216);
+    border-radius: 20px;
+}
+
+.descricao-produto {
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 200px;
 }
